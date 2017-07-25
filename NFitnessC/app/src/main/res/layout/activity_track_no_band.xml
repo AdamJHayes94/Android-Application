@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:gravity="center"
+              android:orientation="vertical"
+              android:background="@color/white">
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/tread_noband"
+        />
+    <TextView
+        android:id="@+id/instructions_text_noband"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="17dp"
+        android:fontFamily="sans-serif-light"
+        android:paddingBottom="20dp"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <EditText
+            android:id="@+id/weight_input_noband"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:hint="@string/Weight"
+            android:inputType="number"
+            android:paddingTop="20dp"/>
+
+        <ImageButton
+            android:id="@+id/add_weight_button_noband"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:scaleType="fitCenter"
+            android:background="@color/white"
+            android:src="@drawable/add_button"
+            android:paddingTop="5dp"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <EditText
+            android:id="@+id/reps_input_noband"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:hint="@string/reps"
+            android:inputType="number"
+            android:paddingTop="20dp"/>
+
+        <ImageButton
+            android:id="@+id/add_reps_button_noband"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:scaleType="fitCenter"
+            android:background="@color/white"
+            android:src="@drawable/add_button"
+            android:paddingTop="5dp"/>
+
+    </LinearLayout>
+    <ImageButton
+        android:id="@+id/addset_button_noband"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:scaleType="fitCenter"
+        android:background="@color/white"
+        android:src="@drawable/add_set"
+        android:paddingBottom="20dp"/>
+    <ImageButton
+        android:id="@+id/finished_button_noband"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:scaleType="fitCenter"
+        android:background="@color/white"
+        android:src="@drawable/finished_button"/>
+
+
+
+</LinearLayout>

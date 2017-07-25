@@ -1,0 +1,107 @@
+<resources>
+
+    <!-- Strings related to main activity -->
+    <string name="app_name">NFitnessC</string>
+    <string name="login">Login</string>
+    <string name="logout">Logout</string>
+    <string name="register">Register</string>
+    <string name="instructions">Instructions</string>
+    <string name="title_activity_login">Sign In</string>
+    <string name="nfc">NFC</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="incorrect_login">Try Again</string>
+    <string name="correct_login">Logged in</string>
+
+    <!-- Strings related to registering -->
+    <string name="first_name_hint">First Name</string>
+    <string name="surname_hint">Surname</string>
+    <string name="email_hint">Email</string>
+    <string name="password_hint">Password</string>
+    <string name="database_button">Database</string>
+
+    <!-- Strings related to nav bar -->
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+    <string name="action_websearch">Web search</string>
+    <string name="swipe">Swipe screen for\n navigation menu</string>
+
+    <!-- Strings related to machines -->
+    <string name="chestpress_title">Chest Press Machine</string>
+    <string name="mainmuscle_chesttext">Main Muscle: Chest</string>
+    <string name="mainmuscle_biceptext">Main Muscle: Biceps</string>
+    <string name="cardio">Cardiovascular Machine</string>
+    <string name="mainmuscle_legstext">Main Muscle: Legs</string>
+    <string name="treadmill_title">Treadmill</string>
+    <string name="tracking">Track With Band</string>
+    <string name="chest_instruction_one">Adjust height on machine so that handles are at chest height when seated</string>
+    <string name="chest_instruction_three">Make sure you are seated so that your back is straight and against the pad. Feet flat on the floor.</string>
+    <string name="chest_instruction_two">Select weight by taking the pin out of the weight section and inserting it into the weight you want. TIP: Start with a low weight and build upwards if too easy</string>
+    <string name="chest_instruction_four">Grip the handles with palms facing downwards and push forward whilst exhaling. Try not to lock your elbows</string>
+    <string name="chest_instruction_five">Slowly bend elbows to return to start position whilst inhaling. Make sure not to let the weight stack to slam back down.</string>
+    <string name="chest_instruction_six">You have completed one rep. Repeat until you have finished set (Recommend 8-12 reps)</string>
+    <string name="treadmill_instruction_one">Stand on machine and familiarise yourself with the control panel. Different treadmills may have different buttons and layouts</string>
+    <string name="treadmill_instruction_two">When you are ready press the start button. This will start you off at a slow walking pace</string>
+    <string name="treadmill_instruction_three">Slowly increase the speed by pressing the increase speed button (may be shown as arrows labelled as Speed) until you are happy with the speed. Decrease speed when needed</string>
+    <string name="treadmill_instruction_four">You can also change the incline of the machine to simulate a hill (may be shown as arrows labelled as Incline)</string>
+    <string name="treadmill_instruction_five">Once you have finished you can either press the stop button or you can press the cooldown button that will slow the treadmill down to a walk before eventually stopping (Recommended)</string>
+    <string name="workouts">Workout Tips</string>
+    <string name="sprints">Sprints</string>
+    <string name="stamina">Long Distance</string>
+    <string name="sprints_one">Sprints can be used for weight loss. It can be used as part of HIIT (High Intensity Interval Training).</string>
+    <string name="sprints_two">To do sprints on the treadmill you can sprint for 30 seconds by increasing the speed and then resting for a minute by reducing speed to a slow walk. Change rest times accordnign to fitness levels</string>
+    <string name="sprints_three">Try to keep your heart rate above 70 percent of your maximum heart rate (220-age) at all times. When sprinting heart rate should be at 80 percent or 90 percent</string>
+    <string name="sprints_four">This type of cardio increases metabolism for the rest of the day</string>
+    <string name="distance_one">Using the treadmill for long periods of time at a comfortable pace can help your fitness and stamina as a whole</string>
+    <string name="distance_two">Find a speed that you can maintain for long periods of time. For example at least 20 minutes</string>
+    <string name="distance_three">Keep your heart rate at about 60% to 80%</string>
+    <string name="lastweights">Last Weights</string>
+
+    <string name="curl_title">Bicep Curl</string>
+    <string name="bicep_instruction_one">Adjust seat height so that you are in a comfortable position with Triceps on the pads and hands on the handles</string>
+    <string name="bicep_instruction_two">Once you have correct position, choose your weight. Try lower weights first and up the weight later if it is too easy</string>
+    <string name="bicep_instruction_three">Hold the handles with your palms facing up, your arms resting on the pads, and your elbows near to the edge of the pads</string>
+    <string name="bicep_instruction_four">Now, flex your elbows and pull the handles towards you until you cant go any further. Pause and then slowly return arms back to start</string>
+    <string name="bicep_instruction_five">Make sure the moving weight stack does not hit the resting weight stack</string>
+    <string name="bicep_instruction_six">You have completed one rep. Repeat until you have finished set (Recommend 8-12 reps). Then take a rest and do a few more sets. (Recommended 3 sets)</string>
+
+    <!-- Strings related to tracking -->
+    <string name="start">Start</string>
+    <string name="stop">Stop</string>
+    <string name="consent">Do you consent to this app getting your heartrate?</string>
+    <string name="Accept">Accept</string>
+    <string name="Add">Add</string>
+    <string name="Weight">Weight in kg</string>
+    <string name="Finished">Finished</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="add_set">Add Set</string>
+    <string name="tracking_noband">Track Without Band</string>
+    <string name="time_taken">Time Taken (minutes)</string>
+    <string name="distance">Distance (km)</string>
+    <string name="speed">Average Speed (km/h)</string>
+    <string name="calories">Calories</string>
+    <string name="reps">Reps</string>
+
+    <!-- Strings related to History -->
+    <string name="treadmill">Treadmill</string>
+    <string name="chestpress">ChestPress</string>
+    <string name="bicepcurl">Bicep Curl</string>
+    <string name="add_goal">Add Goal</string>
+    <string name="weight_instructions">Add you current Weight in kg and press Add button</string>
+
+    <!-- Strings related to Styling -->
+    <string name="nfc_instructions">Read tags on machines with NFC reader</string>
+
+</resources>

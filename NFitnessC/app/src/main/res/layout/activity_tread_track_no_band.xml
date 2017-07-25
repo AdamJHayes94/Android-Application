@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:gravity="center"
+              android:orientation="vertical"
+              android:background="@color/white">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/tread_noband"
+            />
+
+        <EditText
+            android:id="@+id/time_taken_noband"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/time_taken"
+            android:inputType="number"
+            android:paddingTop="20dp"/>
+        <EditText
+            android:id="@+id/distance_noband"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/distance"
+            android:inputType="number"
+            android:paddingTop="20dp"/>
+        <EditText
+            android:id="@+id/average_speed_noband"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/speed"
+            android:inputType="number"
+            android:paddingTop="20dp"/>
+        <EditText
+            android:id="@+id/calories_noband"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/calories"
+            android:inputType="number"
+            android:paddingTop="20dp"/>
+
+    </LinearLayout>
+
+    <ImageButton
+        android:id="@+id/add_treadmill_button_noband"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:scaleType="fitCenter"
+        android:background="@color/white"
+        android:src="@drawable/add_button"/>
+
+</LinearLayout>
